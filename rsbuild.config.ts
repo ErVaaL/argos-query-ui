@@ -20,7 +20,7 @@ export default defineConfig({
       name: "remoteQuery",
       filename: "remoteEntry.js",
       exposes: {
-        "./App": "./src/App",
+        "./App": "./src/App.tsx",
       },
       shared: {
         react: { singleton: true, requiredVersion: false },
