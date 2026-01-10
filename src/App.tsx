@@ -14,7 +14,7 @@ export default function App(props: {
   apiBase?: string;
   accessToken?: string | null;
 }) {
-  const apiBase = props.apiBase ?? "http://localhost:80/api";
+  const apiBase = props.apiBase ?? "/api/v1";
   const token = props.accessToken ?? null;
 
   const gqlUrl = `${apiBase}/resource/graphql`;
